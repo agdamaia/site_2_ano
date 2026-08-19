@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilidade Visual: Física e Robótica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <header>
+        <h1>Acessibilidade para a Visão</h1>
+        <p>A união da Física, Programação e da Robótica a serviço da autonomia</p>
+    </header>
+
+     <section class="simulator-card">
+            <h2>Acessibilidade para a Visão</h2>
+            <p>A ciência, a tecnologia e a Inteligência Artificial têm um papel fundamental na melhoria da qualidade de vida das pessoas com deficiência visual. Por meio de pesquisas científicas, são desenvolvidos recursos como sensores, câmeras e softwares capazes de identificar obstáculos, reconhecer objetos e transformar textos em áudio. A tecnologia permite criar dispositivos como bengalas inteligentes, aplicativos de navegação e leitores de tela, enquanto a IA torna essas soluções ainda mais eficientes, interpretando imagens, descrevendo ambientes e auxiliando na locomoção com maior autonomia. Dessa forma, a união entre ciência, tecnologia e IA contribui para promover mais acessibilidade, inclusão e independência no dia a dia das pessoas com deficiência visual.</p>
+
+    <main class="container">
+        
+        <section class="cards-grid">
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=400&q=80" alt="Ondas e Física">
+                        <div class="card-title">A Física das Ondas</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Efeito Eco & Reflexão</h3>
+                        <p>Dispositivos assistivos usam a reflexão de ondas mecânicas (ultrassom) para calcular distâncias.</p>
+                        <div class="formula">$$d = \frac{v \cdot t}{2}$$</div>
+                        <small>Onde $v$ é a velocidade do som e $t$ é o tempo do eco.</small>
+
+                        <! -- Essa parte é que torna o clique para saber mais ativo --> <<a href="#fisica" class="btn-saiba-mais">  <! -- Você precisa criar a href para cada novo card -->
+                        Clique para saber mais</a>
+                    </div>
+                </div>
+            </div>
+
+             
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS6cIXsqo55HZhdJ8Zh1KfdXGJfBBiisELDbfpyS0tEg&s=10" alt="Semáforo">
+                        <div class="card-title">Semáforo de cruzamento</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Semáforo de Cruzamento</h3>
+                        <p>O semáforo de cruzamento organiza a circulação de veículos e pedestres, garantindo mais segurança e fluidez no trânsito.
+                        Por meio de sinais luminosos, ele controla a passagem e ajuda a evitar acidentes nos cruzamentos.</p>
+                        
+
+                        <! -- Essa parte é que torna o clique para saber mais ativo --> <<a href="#semáforo" class="btn-saiba-mais">  <! -- Você precisa criar a href para cada novo card -->
+                        Clique para saber mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3aFh5jTc2CEo6sLVOTV4zmfPH7dzgAwwVbjdsp7Knw&s=10" alt="Placa de circuito e sensores">
+                        <div class="card-title">A Robótica Assistiva</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Sensores e Atuadores</h3>
+                        <p>Microcontroladores (como Arduino) processam os sinais dos sensores em microssegundos e acionam motores de vibração ou bips sonoros para alertar o usuário.</p>
+                        <a href="#robotica" class="btn-saiba-mais">
+                        Clique para saber mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?auto=format&fit=crop&w=400&q=80" alt="Pessoa utilizando bengala guia na rua">
+                        <div class="card-title">Impacto Social</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Autonomia Real</h3>
+                        <p>Ao traduzir dados físicos do espaço geométrico em estímulos táteis ou sonoros, a tecnologia devolve o direito de ir e vir com segurança e dignidade.</p>
+                        <a href="#impacto" class="btn-saiba-mais">
+                        Clique para saber mais</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+       <section id="fisica" class="conteudo"> <! -- essa seção tem que ser criada em cada texto para cada card, lembrando sempre de colocar o nome escolhido lá  em cima na linha 36 -->
+
+        <! -- Aqui começa os textos completos para a página -->
+
+
+    <h2>A Física das Ondas</h2>
+
+    <p>
+        O ultrassom é uma onda sonora com frequência acima de 20.000 Hz, imperceptível ao ouvido humano.
+        Sensores emitem essas ondas e medem o tempo que elas levam para retornar após atingir um obstáculo.
+    </p>
+
+    <p>
+        A distância é calculada pela fórmula:
+        <strong>d = (v × t) / 2</strong>, onde:
+    </p>
+
+    <ul>
+        <li>v = velocidade do som (aproximadamente 343 m/s);</li>
+        <li>t = tempo entre a emissão e o retorno do eco.</li>
+    </ul>
+</section>
+
+ <section id="semáforo" class="conteudo"> <! -- essa seção tem que ser criada em cada texto para cada card, lembrando sempre de colocar o nome escolhido lá  em cima na linha 36 -->
+
+        <! -- Aqui começa os textos completos para a página -->
+
+
+    <h2>Semáforo de cruzamento</h2>
+
+    <p> O semáforo de cruzamento é um dispositivo de sinalização que organiza o trânsito em locais onde há encontro de diferentes vias. Ele controla, por meio de sinais luminosos, a passagem de veículos, pedestres e, em alguns casos, ciclistas, tornando o deslocamento mais seguro e organizado.
+
+Para os veículos, o vermelho indica parada obrigatória, o amarelo indica atenção e o verde permite seguir, sempre respeitando as demais regras de trânsito. Para os pedestres, o sinal verde indica que a travessia pode ser realizada, enquanto o vermelho indica que não se deve atravessar.
+
+Em cruzamentos, o funcionamento do semáforo alterna o direito de passagem entre os diferentes fluxos de trânsito, evitando conflitos entre veículos e pedestres. Além disso, semáforos podem contar com recursos de acessibilidade, como sinais sonoros para auxiliar pessoas com deficiência visual durante a travessia.
+
+Assim, o semáforo de cruzamento contribui para a segurança, organização e acessibilidade da mobilidade urbana, facilitando a circulação de todos.
+    </p>
+
+    
+</section>
+
+<section id="robotica" class="conteudo">
+    <h2>A Robótica Assistiva</h2>
+
+    <p>
+        A robótica assistiva utiliza sensores, microcontroladores como Arduino e atuadores para identificar obstáculos e alertar o usuário por vibração, sons ou comandos de voz.
+    </p>
+
+    <p>
+        Esses sistemas aumentam a autonomia e a segurança das pessoas com deficiência visual.
+    </p>
+</section>
+
+<section id="impacto" class="conteudo">
+    <h2>Impacto Social</h2>
+
+    <p>
+        Tecnologias assistivas promovem inclusão, independência e qualidade de vida, permitindo que pessoas com deficiência visual estudem, trabalhem e se locomovam com mais segurança.
+    </p>
+</section>
+            
+            
+
+                <script src="script.js"></script>
+            </body> 

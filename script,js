@@ -1,0 +1,15 @@
+// Aguarda o HTML carregar completamente antes de rodar o script
+document.addEventListener("DOMContentLoaded", () => {
+    
+    // Seleciona todos os flip cards da página
+    const flipCards = document.querySelectorAll('.flip-card');
+
+    // Adiciona o evento de clique em cada um deles
+    flipCards.forEach(card => {
+        card.addEventListener('click', () => {
+            // Alterna a classe 'active', que ativa a rotação no CSS
+            card.classList.toggle('active');
+        });
+    });
+    
+});
